@@ -1,6 +1,7 @@
 # Getting started
 
-One server, one URL, OAuth sign-in. No API keys anywhere.
+One server, one URL, OAuth sign-in. No API keys anywhere. The endpoint serves both
+MCP transports — streamable HTTP and SSE — so use whichever your client prefers.
 
 ```
 https://api.sellermate.ai/mcp/sse
@@ -62,8 +63,9 @@ Register the URL as a remote MCP server per the CLI's MCP configuration.
 
 ## Troubleshooting
 
-- **The client can't connect** — confirm the transport is SSE and the URL is exactly
-  `https://api.sellermate.ai/mcp/sse` (no trailing slash).
+- **The client can't connect** — confirm the URL is exactly
+  `https://api.sellermate.ai/mcp/sse` (no trailing slash). The endpoint accepts both
+  streamable HTTP and SSE; if one transport misbehaves in your client, try the other.
 - **OAuth window doesn't appear** — some clients only trigger sign-in on the first tool
   call; ask a question about your account.
 - **"No account found"** — your SellerMate workspace has no Amazon account connected

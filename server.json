@@ -10,6 +10,10 @@
   },
   "remotes": [
     {
+      "type": "streamable-http",
+      "url": "https://api.sellermate.ai/mcp/sse"
+    },
+    {
       "type": "sse",
       "url": "https://api.sellermate.ai/mcp/sse"
     }

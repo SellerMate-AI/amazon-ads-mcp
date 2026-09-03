@@ -4,7 +4,8 @@ Connect Claude, ChatGPT, Cursor, or any MCP client to your **live Amazon Adverti
 data** — and, with approval guardrails, let it act: negate wasted search terms, adjust
 budgets and bids, launch campaigns.
 
-**Remote server. One URL. No API keys. Free on every plan.**
+**Remote server. One URL, both transports (streamable HTTP and SSE). No API keys.
+Free on every plan.**
 
 ```
 https://api.sellermate.ai/mcp/sse
@@ -121,7 +122,8 @@ Write actions and SellerMate's purpose-built AI agent are on the paid plan.
 read-only by default, full audit log. See [docs/security.md](docs/security.md).
 
 **Which clients work?** Claude.ai, Claude Desktop, Claude Code, ChatGPT (custom
-connector), Cursor, VS Code, Windsurf, Gemini CLI — anything that speaks MCP over SSE.
+connector), Cursor, VS Code, Windsurf, Gemini CLI — anything that speaks MCP over
+streamable HTTP or SSE; the endpoint serves both.
 
 **Where does the data come from?** Your own Amazon Advertising account, connected to
 SellerMate. Nothing is scraped; nothing is shared across accounts.
