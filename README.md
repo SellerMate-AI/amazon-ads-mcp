@@ -133,5 +133,6 @@ SellerMate. Nothing is scraped; nothing is shared across accounts.
 - Product page: <https://www.sellermate.ai/product/mcp>
 - Get started free: <https://www.sellermate.ai>
 - Model Context Protocol: <https://modelcontextprotocol.io>
+- More servers on [Claude Market's MCP directory](https://www.claudemarket.ai/mcp)
 
 *SellerMate.AI — AI-powered Amazon advertising automation. © Sellermate Technologies Pvt Ltd.*
