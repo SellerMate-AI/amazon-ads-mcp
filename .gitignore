@@ -1,3 +1,7 @@
 # housekeeping
 .DS_Store
 Thumbs.db
+
+# registry publisher tooling (downloaded locally, never committed)
+mcp-publisher.exe
+mcp-publisher*.tar.gz
